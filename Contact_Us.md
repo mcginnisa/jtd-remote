@@ -23,7 +23,6 @@ aboumrad@sonoma.edu
 
 ## Joseph Haun
 
-[linkedin](https://www.linkedin.com/in/joseph-haun-
-304621100/)
+[linkedin](https://www.linkedin.com/in/joseph-haun-304621100/)
 
 haun@sonoma.edu
