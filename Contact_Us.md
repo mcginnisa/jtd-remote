@@ -13,8 +13,6 @@ description: "contact page"
 
 mcginnia@sonoma.edu
 
-707 583 9017
-
 ## Anthony Aboumrad
 
 [linkedin](https://www.linkedin.com/in/aboumrad/)
