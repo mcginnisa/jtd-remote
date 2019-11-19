@@ -2,12 +2,9 @@
 layout: default
 title: Overview
 nav_order: 1
-description: ""
+description: "landing page, overview"
 ---
 
 # Overview
 
-This is the official website for the Sonoma State University Autonomous Landing and Recharging of  Unmanned Aerial Vehicles Project
-
-Completely autonomous unmanned aerial vehicle (UAV) systems have colossal potential to solve modern problems in novel ways. Industry professionals and public institutions alike are actively researching the potential of these vehicle systems to perform a variety of automated tasks, such as field surveillance, search-and-rescue operations, and, notably, parcel delivery. Digital systems have eliminated the need for hand-delivered postal messages, and soon they could eliminate the need for hand-delivered packages all together. A large share of conventional vehicles may potentially be retired from our public roads by substituting them with cargo drones capable of performing similar or greater levels of economic activity, thereby saving lives, reducing CO2 emissions, and decongesting roads.
-Unfortunately, as with any aircraft, the most difficult and dangerous parts of their utilization are take-off and landing routines. Additionally, battery life limitations among more budget-friendly UAV options typically make longer flight routines impractical or unfeasible. A solution is therefore needed to accomplish the autonomous landing, recharging, and flight routine resumption for such a UAV system. For more sophisticated unmanned systems involving a combination of aerial and ground vehicles (such as those currently being developed for parcel delivery and/or surveying tasks), such control schemes must handle the coordination of multiple vehicles with varying degrees of mobility. The solution proposed by this project seeks to tackle the most challenging problem of autonomous and unmanned aircraft missions in an accessible and generalizable way.
+Unmanned Aerial Vehicles (UAV) are gaining popularity due to their agility and ease of manufacture. However, due to battery life limitations, longer autonomous flight patterns are not feasible for most of these vehicles. There is an imminent need among researchers and industry engineers alike to develop UAV systems capable of supporting autonomous recharging routines for a variety of applications. Our proposed solution to this problem is the creation of a robotic duo, consisting of a UAV and an Unmanned Ground Vehicle (UGV), which will support autonomous landing and recharging of the UAV on top of the UGV platform. The UGV uses an on-board camera and CPU to accomplish image recognition of the UAV, thereby enabling the UGV to maneuver itself (and crucially, the charging platform) underneath the UAV prior initiating the landing routine. The landing routine also supports small adjustments of the UAV’s descent by the UGV as needed to maintain an ideal landing.
