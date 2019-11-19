@@ -5,17 +5,17 @@ nav_order: 1
 description: "contact page"
 ---
 
-#Contact Information
+# Contact Information
 
-##Alexander McGinnis
+## Alexander McGinnis
 [linkedin](linkedin.com/in/mcginnisa)
 mcginnia@sonoma.edu
 707 583 9017
 
-##Anthony Aboumrad
+## Anthony Aboumrad
 [linkedin](https://www.linkedin.com/in/aboumrad/)
 aboumrad@sonoma.edu
 
-##Joseph Haun
+## Joseph Haun
 [linkedin](https://www.linkedin.com/in/joseph-haun-304621100/)
 haun@sonoma.edu
