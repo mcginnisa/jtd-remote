@@ -1,6 +1,6 @@
 ---
 title: Detailed Test Plan
-parent: Testing Documentation
+parent: Documentation
 has_children: true
 nav_order: 1
 ---
