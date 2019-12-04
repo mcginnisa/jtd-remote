@@ -1,6 +1,6 @@
 ---
 title: December Proposal
-parent: Testing Documentation
+parent: Documentation
 has_children: true
 nav_order: 1
 ---
