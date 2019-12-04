@@ -1,5 +1,5 @@
 ---
-title: Testing Documentation
+title: Detailed Test Plan
 parent: Documentation
 has_children: true
 nav_order: 1
