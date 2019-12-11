@@ -17,7 +17,7 @@ mcginnia@sonoma.edu
 
 ## Anthony Aboumrad
 
-<img src="anthony.jpg" alt="anthony"/>
+<img src="anthony.jpeg" alt="anthony"/>
 
 [linkedin](https://www.linkedin.com/in/aboumrad/)
 
@@ -25,7 +25,7 @@ aboumrad@sonoma.edu
 
 ## Joseph Haun
 
-<img src="joe.jpg" alt="joe"/>
+<img src="joe.jpeg" alt="joe"/>
 
 [linkedin](https://www.linkedin.com/in/joseph-haun-304621100/)
 
