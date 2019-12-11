@@ -7,14 +7,6 @@ description: "contact page"
 
 # Contact Information
 
-## Alexander McGinnis
-
-<img src="alec.jpg" alt="alec"/>
-
-[linkedin](https://www.linkedin.com/in/mcginnisa)
-
-mcginnia@sonoma.edu
-
 ## Anthony Aboumrad
 
 <img src="anthony.jpeg" alt="anthony"/>
@@ -30,3 +22,11 @@ aboumrad@sonoma.edu
 [linkedin](https://www.linkedin.com/in/joseph-haun-304621100/)
 
 haun@sonoma.edu
+
+## Alexander McGinnis
+
+<img src="alec.jpg" alt="alec"/>
+
+[linkedin](https://www.linkedin.com/in/mcginnisa)
+
+mcginnia@sonoma.edu
