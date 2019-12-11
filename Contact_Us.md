@@ -9,7 +9,7 @@ description: "contact page"
 
 ## Alexander McGinnis
 
-<img src="alec.jpg"/>
+<img src="alec.jpg" alt="alec"/>
 
 [linkedin](https://www.linkedin.com/in/mcginnisa)
 
@@ -17,7 +17,7 @@ mcginnia@sonoma.edu
 
 ## Anthony Aboumrad
 
-<img src="anthony.jpg"/>
+<img src="anthony.jpg" alt="anthony"/>
 
 [linkedin](https://www.linkedin.com/in/aboumrad/)
 
@@ -25,7 +25,7 @@ aboumrad@sonoma.edu
 
 ## Joseph Haun
 
-<img src="joe.jpg"/>
+<img src="joe.jpg" alt="joe"/>
 
 [linkedin](https://www.linkedin.com/in/joseph-haun-304621100/)
 
