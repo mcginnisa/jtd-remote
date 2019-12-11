@@ -11,6 +11,9 @@ description: "contact page"
 
 [linkedin](https://www.linkedin.com/in/mcginnisa)
 
+<img src="https://media.licdn.com/dms/image/C4E03AQEplS2qjr11kg/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=A9a2_5T9nflj9UZIbcZzx_qAgpiJS4jQTACvFjQmg7M" 
+alt="Cheetah!" />
+
 mcginnia@sonoma.edu
 
 ## Anthony Aboumrad
