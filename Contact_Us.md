@@ -9,7 +9,7 @@ description: "contact page"
 
 ## Alexander McGinnis
 
-<img src="https://media.licdn.com/dms/image/C5603AQFiIzOcVqVk6A/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=us3wqwv2hGYyF70uzfHNDComwB0sz90ABVB6G1MP8t4"/>
+<img src="https://media.licdn.com/dms/image/C4E03AQGIg7gbk1L3sQ/profile-displayphoto-shrink_200_200/0?e=1581552000&v=beta&t=Gib_o-FSDvchQX4k2JbQCmYAnPdfVsSfQl7fQ90blik"/>
 
 [linkedin](https://www.linkedin.com/in/mcginnisa)
 
