@@ -12,6 +12,7 @@ Setup: The UAV will be connected to the Landing Platform’s Single Board Comput
 Expected Outcome: The UAV will successfully respond to commands sent by the Single Board Computer at least 95% of the time, up to a distance of 3 m.
 
 Actual Results: TBD
+
 Conclusion: TBD
 
 ## FT.2.2.1 - Manual Landing of UAV: Perform controlled landings of the aerial vehicle by human operator in order to ensure adequate maneuverability for precise landings. (MR-2, ER-2)
