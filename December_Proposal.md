@@ -6,5 +6,5 @@ nav_order: 1
 ---
  
 <font size="10">
-<a href="UAV (5).pdf">December Proposal</a> 
+<a href="december_doc.pdf">December Proposal</a> 
 </font>
