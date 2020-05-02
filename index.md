@@ -14,4 +14,4 @@ Unmanned Aerial Vehicles (UAV) are gaining popularity due to their agility and e
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSkpM_yCc49JTO5zRa8x3dMdDgFoh8z6g4rTmBqaZefHjEN8yGHA6hv54hSP9ox5MToDLDFbW3hARLi/embed?start=false&loop=false&delayms=3000" frameborder="0" width="750" height="445" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-[Link to Presentation](https://docs.google.com/presentation/d/e/2PACX-1vSUwtzDSgj_DXyRLnmRxa2VqG2bWCDkX426G01hZUiL3UihYkJ6eBEDLNAPk2VzeZYWilsVcc09DNpD/pub?start=false&loop=false&delayms=3000)
+[Link to Presentation](https://docs.google.com/presentation/d/e/2PACX-1vSkpM_yCc49JTO5zRa8x3dMdDgFoh8z6g4rTmBqaZefHjEN8yGHA6hv54hSP9ox5MToDLDFbW3hARLi/pub?start=false&loop=false&delayms=3000)
