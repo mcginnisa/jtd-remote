@@ -11,7 +11,7 @@ Setup: The UAV established a wireless connection to the charging platform’s Si
 
 Expected Outcome: The UAV will successfully respond to commands sent by the Single Board Computer at least 95% of the time, up to a distance of 3 m.
 
-Actual Results: At distances ranging from 0 to 3.2 meters, 100% responsiveness was observed for UAV communications (n = 3,767). 
+Actual Results: At distances ranging from 0 to 3.2 meters, 100% responsiveness was observed for UAV communications (n = 3,767).
 
 Conclusion: Wireless communication between the charging platform’s SBC and the UAV is sufficiently reliable to respond as desired for basic control commands.  
 
@@ -26,22 +26,28 @@ Actual Results: With Frame Differencing, precision of 3.6 ± 0.4 cm (95% C.I., n
 
 Conclusion: Software landings made with machine vision detection methods are well within our target accuracy specifications for both Frame Differencing and IR LED image detection methods.
 
+
+<img src="LANDING-ACCURACY-RESULT.png" alt="LANDING-ACCURACY-RESULT"/>
+
 ## FT.2.3.1 - UAV Command Latency:  Determine total command latency from the issuance of a single query command by the Single Board Computer (SBC) to a corresponding response by the UAV control board. (MR-2, ER-3).
 
 Setup: The UAV established a wireless connection to the charging platform’s Single Board Computer (SBC) via CrazyRadio PA module. The SBC ran a Python script that queried the battery voltage on the UAV. The script in question logged the timestamps of both the outgoing query and incoming UAV response. This script was run at increasing distances between the SBC and the UAV.
 
-Expected Outcome:  The latency between the battery voltage query and the UAV response will be less than 100 ms for adequate control timing. [9] 
+Expected Outcome:  The latency between the battery voltage query and the UAV response will be less than 100 ms for adequate control timing. [9]
 
 Actual Results: Latency was approximately 10 ms at each distance (n ≥ 450 for all), with an average of 9.99 ± 0.36 ms at 3.2 meters (n = 467).
 
 Conclusion: Wireless communication between the charging platform’s SBC and the UAV is rapid enough to respond as desired for basic control commands.
 
 
+<img src="COMMAND-LATENCY-RESULT.png" alt="COMMAND-LATENCY-RESULT"/>
+
+
 ## FT.3.4.1 - UAV Charge Time: Determine the total time required to charge the UAV battery using the Qi wireless charging pad. (MR-3, ER-4).
 
 Setup: A series of tests were planned to perform timed trials of UAV wireless recharging for both of the available LiPo battery configurations (250 mAh and 380 mAh).  The UAV would perform flight operations until its battery was depleted to the point of being unable to maintain flight. The UAV would then be recharged until it reported a full battery status to the charging platform’s SBC. As of April, undetermined hardware failures have prevented the completion of these trials Repeated attempts to charge the UAV both wirelessly via Qi charging pad and directly via USB power supply have yielded either zero retained charge or electrolyte decomposition (as exhibited by LiPo battery swelling). Prior to our decision to refrain from further recharge attempts until access to spare batteries and/or alternative Qi charging pad options were available, two test results were documented - one completed recharge with the 250 mAh UAV battery via Qi wireless charging pad (albeit prior to the custom PCB implementation), and one complete recharge with the 250 mAh battery via direct USB-connected power supply (and including the custom PCB).  
 
-Expected Outcome: The UAV battery will be fully charged within 1 hour. 
+Expected Outcome: The UAV battery will be fully charged within 1 hour.
 
 Actual Results: An initial wireless recharging trial with the 250 mAh battery but without the custom PCB was completed in 75 minutes. A direct USB recharge of the UAV with the 250 mAh battery and custom PCB took 2 hours and 17 minutes. All other trial attempts resulted in battery failure.
 
@@ -51,11 +57,11 @@ Conclusion: Neither of the recorded trials is a direct analog to the final syste
 ## FT.4.5.1 - Camera Power Consumption: Test the power consumed by the camera when our chosen image detection method is running. (MR-4, ER-5)
 Setup: The camera module ran a specific image detection method. The power consumption over a 25 minute period was determined via USB power monitor. The test was performed once while a detectable object was the frame and once without any detectable object in frame.
 
-Expected Outcome: The Camera module will consume no more than 5 W, regardless of whether or not a detectable object is in frame. 
+Expected Outcome: The Camera module will consume no more than 5 W, regardless of whether or not a detectable object is in frame.
 
 Actual Results: The mean power consumption for the camera was 734 ± 5 mW (95% C.I., n = 1,617) during idle state, and 776 ± 0.3 mW (95% C.I., n = 1,874) during active detection.
 
-Conclusion: The camera module meets the specified power requirements. 
+Conclusion: The camera module meets the specified power requirements.
 
 ## FT.4.5.2 - Qi Charger Power Consumption: Test power consumption of Qi charger while actively recharging UAV battery. (MR-4, ER-5)
 Setup: A USB power consumption monitor was placed inline with the transmitting Qi charger while the operating UAV battery (OEM 250 mAh LiPo) was charging. The power consumption measurements, sampled every second, were averaged over the recorded test period.
@@ -87,14 +93,14 @@ Expected Outcome: The combined power consumption of all core subsystem component
 
 Actual Results: The component power consumption tests described above suggested a maximum total system power requirement of approximately 5.442 W, which was far less than our early, rough estimates. The 5V battery pack selected for the charging platform (RAVPower 26,800 mAh Power Bank) is specified by its manufacturer to provide a maximum of 27.5 W. At 5V, the 26,800 mAh capacity of the battery pack yields 134 Watt-hours, which would offer 4.87 hours of operation at its maximum power, 27.5 W.  At the system power requirements as tested (5.442 W), our charging platform may be expected to operate at maximum capacity for 24.6 hours. This estimate does not take into account any potential power savings from configuring the SBC software to turn off the OpenMV camera and/or Qi charging pad when not in use, which would be possible with the custom power switching PCBs designed as potential accessories to our charging platform. Nonetheless, our projected (and to-date, unverified) system power specifications are roughly 5.5 W operating power, up to 24 hours of continuous operation on the selected 5V battery pack.
 
-Conclusion: The 5V battery pack provided more than our expected needs and far more than the actual power requirements of the subsystem. A verification of any projected specifications has not been performed at this time, but the system can be reasonably expected to operate for at least 4 hours, and likely 2 or 3 times this duration. 
+Conclusion: The 5V battery pack provided more than our expected needs and far more than the actual power requirements of the subsystem. A verification of any projected specifications has not been performed at this time, but the system can be reasonably expected to operate for at least 4 hours, and likely 2 or 3 times this duration.
 
 
 ## FT.5.6.1 - UAV Hover Endurance: Determine the total amount of time the UAV is able to hover for the two available battery capacities (250 mAh and 380 mAh). (MR-5, ER-6)
 
 Setup: Begin timing UAV once it lifts off and commences a software-defined hover routine at a fixed height from the ground. Continue timing until the UAV is unable to maintain the hover height.
 
-Expected Outcome: UAV hovers for at least 5 minutes with each battery. 
+Expected Outcome: UAV hovers for at least 5 minutes with each battery.
 
 Actual Results:  Initially,  the stock Crazyflie UAV was able to hover for 6 minutes with a 250 mAh battery and 8 minutes with a 380 mAh battery. On subsequent re-test with the additional hardware payload (custom PCB and performance motors), the UAV was able to hover for 3.52 minutes on average with the 250 mAh battery.
 
@@ -103,7 +109,7 @@ Conclusion: Initial tests of the Crazyflie 2.1 hardware met expectations, howeve
 
 ## FT.5.6.2 -  UAV Mobility Endurance: Determine the total amount of time the UAV is able to fly a given autonomous flight pattern. This pattern could either be in the horizontal or vertical planes. (MR-5, ER-6)
 
-Setup: Two autonomous flight routines will be performed by a UAV equipped with a fully-charged onboard battery. The first routine will be a horizontal figure-eight pattern and the second will be a vertical figure-eight pattern. The UAV will be timed from initial take-off until flight failure due to inadequate battery power. The tests were performed with 250 mAh batteries. 
+Setup: Two autonomous flight routines will be performed by a UAV equipped with a fully-charged onboard battery. The first routine will be a horizontal figure-eight pattern and the second will be a vertical figure-eight pattern. The UAV will be timed from initial take-off until flight failure due to inadequate battery power. The tests were performed with 250 mAh batteries.
 
 Expected Outcome: UAV will be able to maintain either autonomous flight routine for at least five minutes.
 
@@ -120,8 +126,10 @@ Expected Outcome: The time trials should indicate that successful landings can b
 
 Actual Results: Use of the Frame Differencing image detection method resulted in an autonomous landing sequence completion time of 156. 411 ± 7.422 seconds (95% C.I., n = 49). Use of the IR LED detection method resulted in an autonomous landing sequence completion time of  39.567 ± 0.445 seconds (95% C.I., n = 125)
 
-Conclusion: The autonomous landing program was successful in completing landings of a UAV in its field of view within our target timeframe, and the IR LED image detection method was far more capable at quickly providing accurate UAV positioning information to the SBC when compared to Frame Differencing. 
+Conclusion: The autonomous landing program was successful in completing landings of a UAV in its field of view within our target timeframe, and the IR LED image detection method was far more capable at quickly providing accurate UAV positioning information to the SBC when compared to Frame Differencing.
 
+
+<img src="LANDING-DURATION-RESULT.png" alt="LANDING-DURATION-RESULT"/>
 
 ## FT.6.7.1 - Image Detection Method Range: Determine the range of reliable UAV detection by various image detection methods. (MR-6, MR-7, ER-7)
 
@@ -134,6 +142,7 @@ Actual Results: The camera module reliably detected the UAV up to 2.79 m, 1.52 m
 Conclusion: IR LED beacons provided the most reliable detection within our test parameters, and faster frame rate than RGB detection. It was the most ideal choice for the scope of our system, and exceeded our target detection range specification of 2 meters.
 
 
+<img src="DETECTION-RANGE-RESULT.png" alt="DETECTION-RANGE-RESULT"/>
 
 ## ST.8.8.1 -   Dimension Measurement: Confirm that the complete system is constrained to a size which supports portability. (MR-8, ER-8)
 
@@ -147,7 +156,7 @@ Conclusion: The charging platform meets its modeled specifications for a portabl
 
 ## FT.9.9.1 - Network Access Test: Confirm that charging platform’s single board computer can be accessed via SSH (MR-9, ER-9)
 
-Setup: 100 SSH connections were made and the resulting connection success pass/fail variable was recorded to a log file. 
+Setup: 100 SSH connections were made and the resulting connection success pass/fail variable was recorded to a log file.
 
 Expected Outcome: The single board computer should be able to make a successful connection 95% of the time.
 
@@ -157,11 +166,10 @@ Conclusion: Network access reliability is more than adequate for our system.
 
 ## FT.10.10.1 - Anchor Point Weight Test: Confirm that the UAV anchor points will support twice the weight of the UAV on an anchor line. (MR-10, ER-10)
 
-Setup: A 5 lb fishing line will be affixed to the UAV anchor point, with its loose end secured to a weight equivalent to twice the weight of the UAV. The UAV will be securely mounted to a fixed structure while the anchor point’s durability is tested with the freely-hanging weight. 
+Setup: A 5 lb fishing line will be affixed to the UAV anchor point, with its loose end secured to a weight equivalent to twice the weight of the UAV. The UAV will be securely mounted to a fixed structure while the anchor point’s durability is tested with the freely-hanging weight.
 
 Expected Outcome: The anchor point will not fail, and support the specified weight without compromising its structural integrity.
 
-Actual Results: The anchor point was able to hold the UAV along with an added NEMA 17 stepper motor for over six hours. 
+Actual Results: The anchor point was able to hold the UAV along with an added NEMA 17 stepper motor for over six hours.
 
 Conclusion: The anchor point exceeds weight specifications and will operate as expected.
-
