@@ -10,6 +10,6 @@ nav_order: 1
 </font>
 
 <font size="10">
-<a href="may_doc.pdf">December Proposal</a> 
+<a href="may_doc.pdf">May Final Paper</a> 
 </font>
 
