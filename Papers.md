@@ -14,6 +14,6 @@ nav_order: 1
 </font>
 
 <font size="10">
-<a href="SusTech 2020 Poster Final.pdf">SusTech 2020 Poster</a> 
+<a href="SusTech 2020 Poster Final.pdf">Poster</a> 
 </font>
 
