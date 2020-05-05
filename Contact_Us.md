@@ -21,7 +21,7 @@ a.aboumrad@gmail.com
 
 [linkedin](https://www.linkedin.com/in/joseph-haun-304621100/)
 
-haun@sonoma.edu
+josephhaun565@gmail.com
 
 ## Alexander McGinnis
 
