@@ -24,12 +24,13 @@ nav_order: 1
 
 <p>
 <font size="10">
-[Link to Presentation](https://docs.google.com/presentation/d/e/2PACX-1vSkpM_yCc49JTO5zRa8x3dMdDgFoh8z6g4rTmBqaZefHjEN8yGHA6hv54hSP9ox5MToDLDFbW3hARLi/pub?start=false&loop=false&delayms=3000)
+  
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSkpM_yCc49JTO5zRa8x3dMdDgFoh8z6g4rTmBqaZefHjEN8yGHA6hv54hSP9ox5MToDLDFbW3hARLi/pub?start=false&loop=false&delayms=3000">Link to Presentation</a>
 </font>
 </p>
 
 <p>
 <font size="10">
-[GitHub repository](https://github.com/mcginnisa/UAV-Land-Recharge)
+<a href="https://github.com/mcginnisa/UAV-Land-Recharge">GitHub repository</a>
 </font>
 </p>
