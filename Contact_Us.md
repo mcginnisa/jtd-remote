@@ -13,7 +13,7 @@ description: "contact page"
 
 [linkedin](https://www.linkedin.com/in/aboumrad/)
 
-aboumrad@sonoma.edu
+a.aboumrad@gmail.com
 
 ## Joseph Haun
 
@@ -29,4 +29,4 @@ haun@sonoma.edu
 
 [linkedin](https://www.linkedin.com/in/mcginnisa)
 
-mcginnia@sonoma.edu
+mcginnisalexander@gmail.com
