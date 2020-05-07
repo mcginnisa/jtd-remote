@@ -18,4 +18,10 @@ nav_order: 1
 # Expansion PCB schematic V2
 <img src="Expansion_PCB_schematic_V2.png" alt="Expansion PCB schematic V2"/>
 
+# Power switch PCB layout
+<img src="power_switch_PCB_layout.png" alt="power switch PCB layout"/>
+
+# Power switch PCB schematic
+<img src="power_switch_PCB_schematic.png" alt="power switch PCB schematic"/>
+
 
