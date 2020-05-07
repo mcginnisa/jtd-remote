@@ -1,0 +1,15 @@
+"Part";"Value";"Device";"Package";"Description";"BUILT_BY";"MANUFACTURER_PART_NUMBER";"POPULARITY";"SPICEPREFIX";"VENDOR";
+"C1";"47uF";"C-US_1206C1206";"C1206";"CAPACITOR, American symbol";"";"";"";"";"";
+"C2";"47uF";"C-US_1206C1206";"C1206";"CAPACITOR, American symbol";"";"";"";"";"";
+"C3";"100nF";"C-US_1206C1206";"C1206";"CAPACITOR, American symbol";"";"";"";"";"";
+"CR1";"L6920DB";"L6920DB";"MSOP-8";"";"EMA_UL_Team";"L6920DB";"";"";"STMicroelectronics";
+"D1";"";"SFH4243-Q1R2";"SFH4243-Q1R2";"SFH 4243 - High Power Infrared Emitter (940 nm)";"";"";"";"";"";
+"D2";"";"SFH4243-Q1R2";"SFH4243-Q1R2";"SFH 4243 - High Power Infrared Emitter (940 nm)";"";"";"";"";"";
+"HEADER_A_1";"1X10";"1X10";"1X10";"";"";"";"";"";"";
+"HEADER_A_2";"1X10";"1X10";"1X10";"";"";"";"";"";"";
+"HEADER_B_1";"1X10";"1X10";"1X10";"";"";"";"";"";"";
+"HEADER_B_2";"1X10";"1X10";"1X10";"";"";"";"";"";"";
+"L1";"10uH";"L-US_1210R1210";"R1210";"Inductor, American symbol";"";"";"0";"L";"";
+"SOCKET_LEFT";"1X10";"1X10";"1X10";"";"";"";"";"";"";
+"SOCKET_RIGHT";"1X10";"1X10";"1X10";"";"";"";"";"";"";
+"U$1";"TRIMPOT_3314G-1";"TRIMPOT_3314G-1";"3314G-1";"Bourns 3314G-1 Trimmer Resistors - SMD";"";"";"";"";"";
