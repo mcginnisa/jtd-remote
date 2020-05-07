@@ -12,6 +12,10 @@ nav_order: 1
 # Expansion PCB schematic V1
 <img src="Expansion_PCB_schematic_V1.png" alt="Expansion PCB schematic V1"/>
 
+<p>
+<a href="may_doc.pdf">Expansion PCB BOM V1</a> 
+</p>
+
 # Expansion PCB layout V2
 <img src="Expansion_PCB_layout_V2.png" alt="Expansion PCB layout V2"/>
 
