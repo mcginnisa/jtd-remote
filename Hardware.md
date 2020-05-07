@@ -9,7 +9,7 @@ nav_order: 1
 # Expansion PCB layout V1
 <img src="Expansion_PCB_layout_V1.png" alt="Expansion PCB layout V1"/>
 
-# Expansion PCB schematic V1
+## Expansion PCB schematic V1
 <img src="Expansion_PCB_schematic_V1.png" alt="Expansion PCB schematic V1"/>
 
 <p>
@@ -19,13 +19,13 @@ nav_order: 1
 # Expansion PCB layout V2
 <img src="Expansion_PCB_layout_V2.png" alt="Expansion PCB layout V2"/>
 
-# Expansion PCB schematic V2
+## Expansion PCB schematic V2
 <img src="Expansion_PCB_schematic_V2.png" alt="Expansion PCB schematic V2"/>
 
 # Power switch PCB layout
 <img src="power_switch_PCB_layout.png" alt="power switch PCB layout"/>
 
-# Power switch PCB schematic
+## Power switch PCB schematic
 <img src="power_switch_PCB_schematic.png" alt="power switch PCB schematic"/>
 
 <p>
@@ -35,7 +35,7 @@ nav_order: 1
 # Power Bank PCB layout
 <img src="Power_Bank_layout.png" alt="Power Bank layout.png"/>
 
-# Power Bank PCB schematic
+## Power Bank PCB schematic
 <img src="Power_Bank_schematic.png" alt="Power Bank schematic.png"/>
 
 <p>
