@@ -35,4 +35,9 @@ nav_order: 1
 </font>
 </p>
 
+<p>
+<font size="10">
+<a href="landing_pad_drawing.pdf">Landing Pad Drawing</a> 
+</font>
+</p>
 
