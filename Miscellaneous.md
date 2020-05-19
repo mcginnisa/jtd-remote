@@ -35,5 +35,4 @@ nav_order: 1
 </font>
 </p>
 
-# Landing Composite
-<img src="landing_composite.jpg" alt="Landing Composite"/>
+
