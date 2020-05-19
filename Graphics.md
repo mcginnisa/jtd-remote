@@ -1,5 +1,5 @@
 ---
-title: Technical Diagrams
+title: Graphics
 parent: Documentation
 has_children: false
 nav_order: 1
@@ -17,3 +17,6 @@ nav_order: 1
 <a href="landing_pad_drawing.pdf">Landing Pad Drawing</a> 
 </font>
 </p>
+
+# Landing Composite
+<img src="landing_composite.jpg" alt="Landing Composite"/>
