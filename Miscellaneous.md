@@ -34,3 +34,6 @@ nav_order: 1
 <a href="https://github.com/mcginnisa/UAV-Land-Recharge">GitHub repository</a>
 </font>
 </p>
+
+# Landing Composite
+<img src="landing_composite.jpg" alt="Landing Composite"/>
